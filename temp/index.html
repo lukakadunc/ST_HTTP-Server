@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Web technologies, part 2</title>
+</head>
+<body>
+	<div id="header">
+		<span id="center">Web technologies</span>
+	</div>
+
+	<div id="content1">
+		<table>
+			<caption>The list of class participants.</caption>
+			<tr>
+				<th>First name</th>
+				<th>Last name</th>
+				<th>Role</th>
+			</tr>
+			<tr>
+				<td>Mira</td>
+				<td>Trebar</td>
+				<td>Lecturer</td>
+			</tr>
+			<tr>
+				<td>David</td>
+				<td>Jelenc</td>
+				<td>Teaching assistant</td>
+			</tr>
+			<tr>
+				<td>Your</td>
+				<td>Name</td>
+				<td>Student</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="content2">
+
+		<form method="get">
+			<fieldset>
+				<legend>Add a new participant</legend>
+				<label for="first">First name</label><br/>
+				<input id="first" type="text" name="first"/><br/>
+				<br/>
+				<label for="last">Last name</label><br/>
+				<input id="last" type="text" name="last"/><br/>
+				<br/>
+				<label for="role">Role</label><br/>
+				<select id="role" name="role">
+					<option>Lecturer</option>
+					<option>Teaching assistant</option>
+					<option selected="selected">Student</option>
+				</select><br/>
+				<br/>
+				<input type="submit" value="Add participant"/>
+				<input type="reset" value="Clear fields"/>			
+			</fieldset>
+		</form>
+
+	</div>
+
+	<div id="footer">
+		An example footer text. Web technologies @ UL-FRI
+	</div>
+
+</body>
+</html>
